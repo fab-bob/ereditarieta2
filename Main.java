@@ -5,9 +5,12 @@ public class Main {
     public static void main (String[] args) {
         Forma general = new Forma();
         Rettangolo rettangolo = new Rettangolo();
+        Triangolo triangolo = new Triangolo();
 
         System.out.println (general.calcolaArea(6, 5));
         System.out.println (rettangolo.calcolaArea(6, 5));
+        System.out.println (triangolo.calcolaArea(6, 5));
+
 
     }
 }
